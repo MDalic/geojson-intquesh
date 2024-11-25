@@ -1,0 +1,21 @@
+{
+  "name": "geo-intquesh-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ./env.js main.js"
+  },
+  "author": "mdalic",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "dotenv-safe": "^9.1.0",
+    "joi": "^17.13.3",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^13.0.1",
+    "lodash": "^4.17.21"
+  }
+}
